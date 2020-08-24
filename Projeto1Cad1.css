@@ -1,0 +1,64 @@
+@charset "UTF-8";
+body{
+    background-image:radial-gradient(#0585a5,#006384,#02203a,#010e1e);
+    width:100%;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+div#form-cad{
+    background-color:transparent;
+    justify-content:center;
+    align-items:center;
+    width:70%;
+    height:80%;
+    display:flex;
+}
+input[type=text], input[type=password]{   
+    border-radius:4px;
+    background: #c7cfd1; 
+    outline-color:#0b55a1;
+    width:150px;
+    height:20px;
+	
+}
+fieldset{
+    border:1px solid #325c87;
+    background-color:#08274a;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1.8);
+}
+fieldset legend{
+    font-size:20px;
+	
+}
+input#Bcd{
+    border-radius:4px;
+    background:#0b55a1; 
+    border:1px solid #032d57;
+    width:100px;
+    height:20px;
+    color:#ffffff;
+    font-weight:bold;
+}
+input#Bvt{
+    border-radius:4px;
+    background:#ffffff; 
+    border:1px solid #032d57;
+    width:100px;
+    height:20px;
+    font-weight:bold;
+}	
+form{
+    font-size:13pt;
+    font-family:sans-serif;
+    width:60%;
+    height:50%;
+    color:#ffffff;
+}
+input#Bcd, input#Bvt{
+    position:relative;
+    left:40px;
+    margin:0 10px;
+    height:25px;
+}

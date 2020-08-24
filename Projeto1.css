@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body{
+	background-image:radial-gradient(#0585a5,#006384,#02203a,#010e1e);
+	width:100%;
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+form{
+	font-size:13pt;
+	font-family:sans-serif;
+	color:#ffffff;
+	margin:100px auto;
+	border: 2px
+}
+input{
+	position:relative;
+	left:40px;
+	margin:0 10px;
+	height:25px;
+}
+fieldset{
+	border:1px solid #325c87;
+	background-color:#08274a;
+	width:350px;
+	height:250px;
+	box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 1.8);
+
+}
+fieldset legend{
+	font-size:20px;
+	
+}
+input[type=text], input[type=password]{   
+    border-radius:4px;
+    background: #c7cfd1; 
+    outline-color:#0b55a1;
+    width:150px;
+	height:20px;
+	
+}
+input#Login{
+    border-radius:4px;
+    background:#0b55a1; 
+    border:1px solid #032d57;
+    width:100px;
+    height:20px;
+    color:#ffffff;
+    font-weight:bold;
+	
+}
+input#Cad{
+    border-radius:4px;
+    background:#ffffff; 
+    border:1px solid #032d57;
+    width:100px;
+    height:19px;
+    font-weight:bold;
+	
+}
+
+div#form input#Login{
+	position:relative;
+}
+div#form p{
+	padding:20px;
+	font-family:sans-serif;
+}
+
+input{
+	font-size:10pt;
+	font-family:sans-serif;
+	font-weight:normal;
+	background-color:rgba(255,255,255,.8);
+	
+}
+
