@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
 	<meta charset="UTF-8">
-	<title></title>
+	<title>CRUD</title>
 	<link rel="stylesheet" type="text/css" href="Projeto1.css"/>
     </head>
 	
